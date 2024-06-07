@@ -49,13 +49,15 @@
             {{ end }}
           {{ end }}
 
-          &nbsp;&bull;&nbsp;&copy;
+          &nbsp;&bull;&nbsp;&copy; 2024
+          <!--
           {{ if .Site.Params.since }}
             {{ .Site.Params.since }} - {{ .Site.LastChange.Format "2006" }}
           {{ else }}
             {{ .Site.LastChange.Format "2006" }}
           {{ end }}
-
+          -->
+          
           {{ if .Site.Title }}
             &nbsp;&bull;&nbsp;
             <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>

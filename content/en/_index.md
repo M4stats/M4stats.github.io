@@ -1,6 +1,6 @@
 
 
-## About us
+## About us {#aboutus}
 
 
 {{< person-list >}}
@@ -29,7 +29,7 @@ Mehmet and Matthias are university professors in statistics and data analysis at
 
 We have published a [multitude of academic papers](resources.html#papers) as well as several [books on statistics and data-analysis](resources.html#books). We also enjoy developing [software tools](resources.html#software) that help us and our students in our daily work.
 
-## What we offer
+## What we offer {#services}
 
 We are happy to offer training, consulting, and analysis services in statistics, data analysis, and programming. We are happy to tailor our services to whatever need you and your organization might have. We can offer our services in English, Norwegian or German and we are comfortable working in person or online.
 
@@ -129,4 +129,6 @@ In our day-to-day work, we are performing a many complex data analyses. We are h
 %}}
 
 {{< /testimonials >}}
+
+## Contact us {#contact}
 

@@ -28,6 +28,42 @@ defaultContentLanguageInSubdir = true
     weight = 1
     [languages.no.params]
       subtitle = 'Konsulenttjenester og opplæring innen dataanalyse og statistikk'
+    [languages.no.menus]
+      [[languages.no.menus.main]]
+        identifier = "about"
+        name = "Om oss"
+        url = "#aboutus"
+        weight = 1
+
+      [[languages.no.menus.main]]
+        identifier = "services"
+        name = "Tjenester"
+        url = "#services"
+        weight = 2
+
+      [[languages.no.menus.main]]
+        parent="services"
+        name = "Opplæring"
+        url = "#training"
+        weight = 3
+
+      [[languages.no.menus.main]]
+        parent="services"
+        name = "Konsulenttjenester"
+        url = "#consulting"
+        weight = 3
+
+      [[languages.no.menus.main]]
+        parent="services"
+        name = "Dataanalyse"
+        url = "#analysis"
+        weight = 3
+
+
+      [[languages.no.menus.main]]
+        name = "Kontakt"
+        url = "#contact"
+        weight = 3      
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -38,6 +74,42 @@ defaultContentLanguageInSubdir = true
     weight = 2
     [languages.en.params]
       subtitle = 'Consulting and Training for Data analysis and Statistics'
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        identifier = "about"
+        name = "About us"
+        url = "#aboutus"
+        weight = 1
+
+      [[languages.en.menus.main]]
+        identifier = "services"
+        name = "Services"
+        url = "#services"
+        weight = 2
+
+      [[languages.en.menus.main]]
+        parent="services"
+        name = "Training"
+        url = "#training"
+        weight = 3
+
+      [[languages.en.menus.main]]
+        parent="services"
+        name = "Consulting"
+        url = "#consulting"
+        weight = 3
+
+      [[languages.en.menus.main]]
+        parent="services"
+        name = "Data Analysis"
+        url = "#analysis"
+        weight = 3
+
+
+      [[languages.en.menus.main]]
+        name = "Contact"
+        url = "#contact"
+        weight = 3
 
 [Params]
   homeTitle = "M4stats" # Set a different text for the header on the home page
@@ -74,22 +146,11 @@ defaultContentLanguageInSubdir = true
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Matthias Mittner"
-  website = "m4stats.no"
+  website = "http://m4stats.no"
   email = "matthias@m4stats.no"
   github = "ihrke"
   twitter = "thias_mittner"
-  linkedin = ""
   mastodon = "http://scicomm.xyz/@thias_mittner"
-
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
-
-[[menu.main]]
-    name = "About"
-    url = "#why"
-    weight = 3
 
 #[[menu.main]]
 #    identifier = "samples"
