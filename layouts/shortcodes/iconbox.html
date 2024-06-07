@@ -1,0 +1,18 @@
+<div class="iconbox">
+    <div class="iconbox-header">
+        <div class="iconbox-icon">
+        {{ if .Get "icon" }}
+            <i class="fas {{ .Get "icon" }}"></i>
+        {{ else }}
+            <i class="fas fa-chart-bar"></i>
+        {{ end }}
+        </div>
+        <h3>{{ .Get "title" }}</h3>
+    </div>
+    <div class="iconbox-content">
+        <p>{{ .Get "content" }}</p>
+        {{ if .Get "learnmore" }}
+        <button class="button-3" role="button" onclick="location.href='{{ .Get "learnmore" }}';">Learn more</button>
+        {{ end }}
+    </div>
+</div>

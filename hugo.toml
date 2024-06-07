@@ -1,0 +1,124 @@
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "en"
+title = "M4stats"
+# Using theme as git submodule 
+theme = "beautifulhugo"
+# Or when using theme as hugo module
+# theme = "github.com/halogenica/beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+
+defaultContentLanguage = 'no'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.no]
+    contentDir = 'content/no'
+    disabled = false
+    languageCode = 'no'
+    languageDirection = 'ltr'
+    languageName = '🇳🇴'
+    title = 'M4stats'
+    weight = 1
+    [languages.no.params]
+      subtitle = 'Konsulenttjenester og opplæring innen dataanalyse og statistikk'
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = '🇺🇸'
+    title = 'M4stats'
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Consulting and Training for Data analysis and Statistics'
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Consulting and Training for Data analysis and Statistics"
+  mainSections = [""]
+  logo = "images/m4stats-logo2-sq.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+#  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Matthias Mittner"
+  website = "m4stats.no"
+  email = "matthias@m4stats.no"
+  github = "ihrke"
+  twitter = "thias_mittner"
+  linkedin = ""
+  mastodon = "http://scicomm.xyz/@thias_mittner"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "#why"
+    weight = 3
+
+#[[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
+
+#[[menu.main]]
+#    name = "Tags"
+#    url = "tags"
+#    weight = 3
+
+## allow raw HTML in the MD files
+[markup.goldmark.renderer]
+  unsafe= true

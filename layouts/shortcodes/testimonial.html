@@ -1,0 +1,28 @@
+<div class="testimonial-box">
+    <div class="testimonial">
+      <i class="fas fa-quote-right"></i>
+      <span class="testimonial-text"> 
+        {{ .Get "content" }}
+      </span>
+      <div class="testimonial-user">
+        {{ if .Get "image" }}
+        <img src="{{ .Get "image" }}" alt="user-img" class="user-img">
+        {{ else }}
+        <img src="/images/Person_Image_Placeholder.png" alt="user-img" class="user-img">
+        {{ end }}
+        
+        <div class="user-info">
+          <span class="user-name">{{ .Get "name" }}</span>
+          <div class="user-job-details">
+            {{ if .Get "job" }}
+            <span class="user-job">{{ .Get "job" }}</span>
+            {{ end }}
+            {{ if .Get "company" }}
+            <div class="line"></div>
+            <span class="user-post">{{ .Get "company" }}</span>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
