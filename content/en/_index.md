@@ -78,6 +78,9 @@ We are happy to offer training in the following topics:
 
 Our courses are hands-on and we are happy to tailor them to whatever need you and your organization might have. We can offer courses in English, Norwegian or German and we are comfortable teaching in person or online. 
 
+{{< contact-button "Contact us for an offer!">}}
+ 
+
 ### {{< icon fa-chart-line >}} Consulting {#consulting}
 
 We enjoy consulting with companies, researchers, students or anyone who needs help with their data analysis projects. We have experience consulting in statistics, data analysis, and programming at different levels, from beginners to advanced and will help you to solve your data-analytic problem quickly and effectively.  
@@ -95,10 +98,13 @@ We consult on the following topics:
 
 We are flexible and enthusiastic about tackling new problems in these domains. We offer hourly rates or project-based consulting services. We can offer consulting in English, Norwegian or German and we are comfortable working in person or online.
 
+{{< contact-button "Contact us for an offer!">}}
+
 
 ### {{< icon fa-chart-bar >}} Analysis {#analysis}
 
 
+{{< contact-button "Contact us for an offer!">}}
 
 
 ## Testimonials

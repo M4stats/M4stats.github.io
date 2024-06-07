@@ -1,0 +1,8 @@
+<button class="contact-button" role="button" 
+onclick="location.href='mailto:contact@m4stats.no';">
+    {{ if .Get 0 }}
+        {{ .Get 0 }}
+    {{ else }}
+        Contact us!
+    {{ end }}
+</button>
