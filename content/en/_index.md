@@ -103,6 +103,8 @@ We are flexible and enthusiastic about tackling new problems in these domains. W
 
 ### {{< icon fa-chart-bar >}} Analysis {#analysis}
 
+In our day-to-day work, we are performing a many complex data analyses. We are happy to offer our services to help you with your data analysis projects. We can help you with the design of your study, the collection of data, the analysis of data, and the interpretation of results. We can also help you with the writing of reports and scientific papers. We are experienced in analyzing data from a wide range of fields, including psychology, medicine, biology, economics, and social sciences. We are also experienced in analyzing data from a wide range of sources, including surveys, experiments, and national databases. We are passionate about data analysis and we are dedicated to helping our clients succeed in their projects.
+
 
 {{< contact-button "Contact us for an offer!">}}
 
