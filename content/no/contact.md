@@ -1,11 +1,11 @@
 +++
-title = 'Contact us'
+title = 'Ta kontakt'
 date = 2024-06-07T11:59:52+02:00
 +++
 
-Please fill out the form below to contact us. We will get back to you as soon as possible.
+Du kan fylle ut skjemaet nedenfor for å kontakte oss. Vi vil svare deg så snart som mulig.
 
-You can also send us an e-mail directly:
+Du kan også sende oss en e-post direkte:
 
 - {{< icon fa-envelope >}} contact@m4stats.no
 

@@ -132,4 +132,4 @@ In our day-to-day work, we are performing a many complex data analyses. We are h
 
 ## Contact us {#contact}
 
-{{% google forms 1FAIpQLScSRkqu_W9WedejCZEOlKRtQKwgM3uFzqtZwegFHXjutZwHwQ %}}
+You can contact us directly by e-mail (contact@m4stats.no) or by filling out our [contact form](contact) below. We will get back to you as soon as possible.

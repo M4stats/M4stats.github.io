@@ -62,7 +62,7 @@ defaultContentLanguageInSubdir = true
 
       [[languages.no.menus.main]]
         name = "Kontakt"
-        url = "#contact"
+        url = "contact"
         weight = 3      
   [languages.en]
     contentDir = 'content/en'
@@ -108,7 +108,7 @@ defaultContentLanguageInSubdir = true
 
       [[languages.en.menus.main]]
         name = "Contact"
-        url = "#contact"
+        url = "contact"
         weight = 3
 
 [Params]
