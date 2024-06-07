@@ -15,7 +15,7 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 
-defaultContentLanguage = 'no'
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 [languages]
   [languages.no]
