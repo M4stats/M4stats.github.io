@@ -132,3 +132,4 @@ In our day-to-day work, we are performing a many complex data analyses. We are h
 
 ## Contact us {#contact}
 
+{{% google forms 1FAIpQLScSRkqu_W9WedejCZEOlKRtQKwgM3uFzqtZwegFHXjutZwHwQ %}}
