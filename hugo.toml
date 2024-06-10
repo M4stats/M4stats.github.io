@@ -1,6 +1,6 @@
-baseurl = "https://username.github.io"
+baseurl = "https://m4stats.no/"
 DefaultContentLanguage = "en"
-title = "M4stats: Statistical consulting"
+title = "M⁴stats: Statistical consulting"
 # Using theme as git submodule 
 theme = "beautifulhugo"
 # Or when using theme as hugo module
@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = true
     languageCode = 'no'
     languageDirection = 'ltr'
     languageName = '🇳🇴'
-    title = 'M4stats'
+    title = 'M⁴stats'
     weight = 1
     [languages.no.params]
       subtitle = 'Konsulenttjenester og opplæring innen dataanalyse og statistikk'
@@ -70,7 +70,7 @@ defaultContentLanguageInSubdir = true
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = '🇺🇸'
-    title = 'M4stats'
+    title = 'M⁴stats'
     weight = 2
     [languages.en.params]
       subtitle = 'Consulting and Training for Data analysis and Statistics'
@@ -112,7 +112,7 @@ defaultContentLanguageInSubdir = true
         weight = 3
 
 [Params]
-  homeTitle = "M4stats" # Set a different text for the header on the home page
+  homeTitle = "M⁴stats" # Set a different text for the header on the home page
   subtitle = "Consulting and Training for Data analysis and Statistics"
   mainSections = [""]
   logo = "images/m4stats-logo2-sq.png" # Expecting square dimensions 
