@@ -83,3 +83,12 @@
 	}
 
 }
+
+
+/* Responsive design: put boxes in a single column 
+    when the screen width is less than 600px */
+	@media only screen and (max-width: 600px) {
+		.testimonial-list{
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}

@@ -7,7 +7,7 @@
     grid-auto-rows: 1fr;
 	grid-gap: 20px;
 	padding: 20px;
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 
 
 	.iconbox{
@@ -43,4 +43,11 @@
 
 }
 
-
+ 
+/* Responsive design: put boxes in a single column 
+    when the screen width is less than 600px */
+@media only screen and (max-width: 600px) {
+    .iconbox-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

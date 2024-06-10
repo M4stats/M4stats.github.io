@@ -15,7 +15,7 @@
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column {
+    .person-col {
       width: 100%;
     }
   }
@@ -74,9 +74,6 @@
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
   }
-
-
-
 
 
   /* CSS */
