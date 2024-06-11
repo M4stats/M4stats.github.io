@@ -20,6 +20,32 @@
     }
   }
 
+/* -------------------------------- */
+/** imgcol */
+/* -------------------------------- */
+
+.imgcol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .imgcol-img {
+    flex: 10%;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .imgcol-content {
+    flex: 80%;
+    justify-content: center;
+    padding: 5px;
+  }
+
+}
+
+/* -------------------------------- */
+
+
 
 
   /* CSS */
