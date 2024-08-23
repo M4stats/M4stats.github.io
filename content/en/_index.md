@@ -74,6 +74,7 @@ We are happy to offer training in the following topics:
 - Machine learning
 - Structural equation modelling and confirmatory factor analysis
 - Bayesian data analysis
+- Text analysis (qualitative and quantitative)
 - *Additional topics on request*
 
 Our courses are hands-on and we are happy to tailor them to whatever need you and your organization might have. We can offer courses in English, Norwegian or German and we are comfortable teaching in person or online. 

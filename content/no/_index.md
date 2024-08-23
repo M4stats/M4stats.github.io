@@ -39,7 +39,7 @@ Vi tilbyr opplæring, konsulenttjenester og analysetjenester innen statistikk, d
 
 {{% iconbox 
     icon="fa-chalkboard-teacher" 
-    title="Oppplæring" 
+    title="Opplæring" 
     content="Vi tilbyr opplæring i statistikk, dataanalyse og programmering i R, Python og Stata. Kursene våre er tilpasset kundenes behov og er designet for å være interaktive og praktiske."
     learnmore="#training"
 %}}
@@ -76,6 +76,7 @@ Vi tilbyr opplæring i følgende emner:
 - Maskinlæring
 - Strukturligningsmodellering og konfirmatorisk faktoranalyse
 - Bayesiansk dataanalyse
+- Tekstanalyse (kvalitativ og kvantitativ)
 - *Andre emner på forespørsel*
 
 Våre kurs er praktiske og vi er glade for å tilpasse dem til hva enn behov du og organisasjonen din måtte ha. Vi kan tilby kurs på engelsk, norsk eller tysk og vi er komfortable med å undervise personlig eller online.
